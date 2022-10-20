@@ -1,11 +1,11 @@
 #include "main.h"
 
-/*
-* main - entry
-*
-* _isupper - checks if parameter(c) is a capital letter
-* Return: 0
-*/
+/**
+ * _isupper - Checks for capital letters.
+ * @c: int representing a character to be checked
+ *
+ * Return: 0
+ */
 
 int _isupper(int c)
 {
