@@ -2,8 +2,8 @@
 
 /**
  * mul - multiply int a an b
- * @a&&b - integers to be multiplied
- *
+ * @a - integer to be multiplied
+ * @b - integer to be multiplied
  * Return: the value
  */
 
