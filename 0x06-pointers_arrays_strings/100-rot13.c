@@ -7,11 +7,8 @@
  */
 
 char *rot13(char *str)
-
 {
-
 	int indx1 = 0, indx2;
-
 	char alphabet[52] = {'A', 'B', 'C', 'D', 'E', 'F',
 
 			     'G', 'H', 'I', 'J', 'K', 'L',
@@ -51,33 +48,17 @@ char *rot13(char *str)
 
 
 	while (str[indx1])
-
 	{
-
 		for (indx2 = 0; indx2 < 52; indx2++)
-
 		{
-
 			if (str[indx1] == alphabet[indx2])
-
 			{
-
 				str[indx1] = rot13key[indx2];
-
 				break;
-
 			}
-
 		}
 
-
-
 		indx1++;
-
 	}
-
-
-
 	return (str);
-
 }
